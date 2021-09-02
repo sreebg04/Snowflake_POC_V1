@@ -1,0 +1,57 @@
+2021-09-02 12:49:49,906 - MainThread Snowflake_remove_old_staged_files.py:44 - delete_old_staged_files() - INFO - Deleting old staged files from database stages
+2021-09-02 12:50:32,983 - MainThread Snowflake_upload_files.py:46 - run_upload() - INFO -  Uploading files into Database stages
+2021-09-02 12:50:40,358 - Thread-6 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:40,389 - Thread-2 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:40,561 - Thread-7 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:41,108 - Thread-4 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:41,124 - Thread-5 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:41,155 - Thread-3 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:41,186 - Thread-8 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:41,186 - Thread-9 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:41,202 - Thread-11 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:41,202 - Thread-1 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:41,202 - Thread-10 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:41,202 - Thread-12 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:50:44,124 - Thread-6 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_1_\demotable1_1__6.csv @client1; executed
+2021-09-02 12:50:45,358 - Thread-12 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_2_\demotable1_2__6.csv @client1; executed
+2021-09-02 12:51:39,366 - Thread-7 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_2_\demotable1_2__1.csv @client1; executed
+2021-09-02 12:51:39,538 - Thread-5 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_1_\demotable1_1__5.csv @client1; executed
+2021-09-02 12:51:48,116 - Thread-9 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_2_\demotable1_2__3.csv @client1; executed
+2021-09-02 12:51:54,194 - Thread-2 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_1_\demotable1_1__2.csv @client1; executed
+2021-09-02 12:52:04,914 - Thread-4 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_1_\demotable1_1__4.csv @client1; executed
+2021-09-02 12:52:11,946 - Thread-8 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_2_\demotable1_2__2.csv @client1; executed
+2021-09-02 12:52:15,618 - Thread-1 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_1_\demotable1_1__1.csv @client1; executed
+2021-09-02 12:52:17,243 - Thread-3 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_1_\demotable1_1__3.csv @client1; executed
+2021-09-02 12:52:19,196 - Thread-11 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_2_\demotable1_2__5.csv @client1; executed
+2021-09-02 12:52:30,790 - Thread-10 Snowflake_upload_files.py:30 - upload() - INFO - PUT file:///C:\Users\sree\OneDrive\Desktop\data_source\source\client1\demotable1_2_\demotable1_2__4.csv @client1; executed
+2021-09-02 12:52:31,368 - MainThread Snowflake_copy_files_to_table.py:51 - copy_files() - INFO - Copying files into stage database
+2021-09-02 12:52:32,696 - Thread-14 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:52:32,712 - Thread-13 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:52:44,509 - Thread-14 Snowflake_copy_files_to_table.py:36 - copy() - INFO - COPY into demotable1_2_
+            FROM @client1
+            file_format = (type = csv field_optionally_enclosed_by='"' skip_header=1)
+            pattern = '.*demotable1_2__[1-6].csv.gz'
+            on_error = 'ABORT_STATEMENT'; executed
+2021-09-02 12:52:45,274 - Thread-13 Snowflake_copy_files_to_table.py:36 - copy() - INFO - COPY into demotable1_1_
+            FROM @client1
+            file_format = (type = csv field_optionally_enclosed_by='"' skip_header=1)
+            pattern = '.*demotable1_1__[1-6].csv.gz'
+            on_error = 'ABORT_STATEMENT'; executed
+2021-09-02 12:54:08,242 - MainThread Snowflake_copy_files_to_table.py:51 - copy_files() - INFO - Copying files into stage database
+2021-09-02 12:54:09,867 - Thread-1 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:54:09,882 - Thread-2 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:54:11,789 - Thread-2 Snowflake_copy_files_to_table.py:36 - copy() - INFO - COPY into demotable1_2_
+            FROM @client1
+            file_format = (type = csv field_optionally_enclosed_by='"' skip_header=1)
+            pattern = '.*demotable1_2__[1-6].csv.gz'
+            on_error = 'ABORT_STATEMENT'; executed
+2021-09-02 12:54:12,070 - Thread-1 Snowflake_copy_files_to_table.py:36 - copy() - INFO - COPY into demotable1_1_
+            FROM @client1
+            file_format = (type = csv field_optionally_enclosed_by='"' skip_header=1)
+            pattern = '.*demotable1_1__[1-6].csv.gz'
+            on_error = 'ABORT_STATEMENT'; executed
+2021-09-02 12:54:12,622 - MainThread Snowflake_check_copy_history.py:50 - check_history() - INFO - Getting Copy/Load history for each database
+2021-09-02 12:54:13,638 - Thread-3 snowflake_connect.py:21 - connect() - INFO - Connection established successfully
+2021-09-02 12:54:16,856 - Thread-3 Snowflake_check_copy_history.py:35 - load_history() - INFO - Copy/Load history for database has No error
+2021-09-02 12:54:17,356 - MainThread Snowflake_archive.py:18 - archive() - INFO - Moving processed files from source to archive
+2021-09-02 12:54:17,356 - MainThread Snowflake_main.py:51 - <module>() - INFO - End of Process

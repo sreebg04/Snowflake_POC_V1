@@ -1,0 +1,5 @@
+snowflake-connector-python
+threaded
+pathlib~=1.0.1
+futures
+snowflake-connector-python[pandas]
