@@ -1,0 +1,44 @@
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : lxa90481, user : sree, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.simple_ingest_manager:Ingest file request url: https://lxa90481.snowflakecomputing.com/v1/data/pipes/client1.public.client1_demotable1_1_/insertFiles?requestId=39af30c6-3b0e-4ee7-ba22-6b55e0f75d7f
+INFO:snowflake.ingest.utils.tokentools:Renewing token because renewal time (2021-09-25 13:37:52.025419) is eclipsed by present time (2021-09-25 13:37:52.036415)
+INFO:snowflake.ingest.utils.tokentools:Public key fingerprint is SHA256:Z351/jPyHfY2YL12W2kymQzn2XViRTqnyg6TBbBenlA=
+INFO:snowflake.ingest.utils.tokentools:New Token created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): lxa90481.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://lxa90481.snowflakecomputing.com:443 "POST /v1/data/pipes/client1.public.client1_demotable1_1_/insertFiles?requestId=39af30c6-3b0e-4ee7-ba22-6b55e0f75d7f HTTP/1.1" 403 118
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : lxa90481, user : sree, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.simple_ingest_manager:Ingest file request url: https://lxa90481.snowflakecomputing.com/v1/data/pipes/client1.public.client1_demotable1_1_/insertFiles?requestId=29271c77-f510-4aa9-8dce-5a2ffa64d8c1
+INFO:snowflake.ingest.utils.tokentools:Renewing token because renewal time (2021-09-25 13:40:19.450012) is eclipsed by present time (2021-09-25 13:40:19.450012)
+INFO:snowflake.ingest.utils.tokentools:Public key fingerprint is SHA256:Z351/jPyHfY2YL12W2kymQzn2XViRTqnyg6TBbBenlA=
+INFO:snowflake.ingest.utils.tokentools:New Token created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): lxa90481.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://lxa90481.snowflakecomputing.com:443 "POST /v1/data/pipes/client1.public.client1_demotable1_1_/insertFiles?requestId=29271c77-f510-4aa9-8dce-5a2ffa64d8c1 HTTP/1.1" 403 118
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : lxa90481.us-east-1, user : sree, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : lxa90481.us-east-1, user : sree, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.simple_ingest_manager:Ingest file request url: https://lxa90481.snowflakecomputing.com/v1/data/pipes/client1.public.client1_demotable1_1_/insertFiles?requestId=95bad1ad-d286-4fc9-80d9-f111ddc67733
+INFO:snowflake.ingest.utils.tokentools:Renewing token because renewal time (2021-09-25 13:42:59.630318) is eclipsed by present time (2021-09-25 13:42:59.630318)
+INFO:snowflake.ingest.utils.tokentools:Public key fingerprint is SHA256:Z351/jPyHfY2YL12W2kymQzn2XViRTqnyg6TBbBenlA=
+INFO:snowflake.ingest.utils.tokentools:New Token created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): lxa90481.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://lxa90481.snowflakecomputing.com:443 "POST /v1/data/pipes/client1.public.client1_demotable1_1_/insertFiles?requestId=95bad1ad-d286-4fc9-80d9-f111ddc67733 HTTP/1.1" 403 118
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : lxa90481.us-east-1, user : sree, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.simple_ingest_manager:Ingest file request url: https://lxa90481.us-east-1.snowflakecomputing.com/v1/data/pipes/client1.public.client1_demotable1_1_/insertFiles?requestId=15b9e2a1-1c93-4dbe-9999-e5f6efd1cd36
+INFO:snowflake.ingest.utils.tokentools:Renewing token because renewal time (2021-09-25 13:43:27.579782) is eclipsed by present time (2021-09-25 13:43:27.579782)
+INFO:snowflake.ingest.utils.tokentools:Public key fingerprint is SHA256:Z351/jPyHfY2YL12W2kymQzn2XViRTqnyg6TBbBenlA=
+INFO:snowflake.ingest.utils.tokentools:New Token created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): lxa90481.us-east-1.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://lxa90481.us-east-1.snowflakecomputing.com:443 "POST /v1/data/pipes/client1.public.client1_demotable1_1_/insertFiles?requestId=15b9e2a1-1c93-4dbe-9999-e5f6efd1cd36 HTTP/1.1" 200 88
+DEBUG:snowflake.ingest.simple_ingest_manager:Ingest response: {'requestId': '15b9e2a1-1c93-4dbe-9999-e5f6efd1cd36', 'responseCode': 'SUCCESS'}
+INFO:snowflake.ingest.simple_ingest_manager:Get history request url: https://lxa90481.us-east-1.snowflakecomputing.com/v1/data/pipes/client1.public.client1_demotable1_1_/insertReport?requestId=299b7f10-269c-48bf-879b-30cd2e085fa6
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): lxa90481.us-east-1.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://lxa90481.us-east-1.snowflakecomputing.com:443 "GET /v1/data/pipes/client1.public.client1_demotable1_1_/insertReport?requestId=299b7f10-269c-48bf-879b-30cd2e085fa6 HTTP/1.1" 200 176
+INFO:snowflake.ingest.simple_ingest_manager:Get history range request url: https://lxa90481.us-east-1.snowflakecomputing.com/v1/data/pipes/client1.public.client1_demotable1_1_/loadHistoryScan?requestId=a8e347ce-8218-466f-ae1d-f4f9b8df0372&startTimeInclusive=2021-09-25T12%3A43%3A50.611624Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): lxa90481.us-east-1.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://lxa90481.us-east-1.snowflakecomputing.com:443 "GET /v1/data/pipes/client1.public.client1_demotable1_1_/loadHistoryScan?requestId=a8e347ce-8218-466f-ae1d-f4f9b8df0372&startTimeInclusive=2021-09-25T12%3A43%3A50.611624Z HTTP/1.1" 200 360
+INFO:snowflake.ingest.simple_ingest_manager:Get history request url: https://lxa90481.us-east-1.snowflakecomputing.com/v1/data/pipes/client1.public.client1_demotable1_1_/insertReport?requestId=32870969-c70f-41a0-aa30-79051e1e5874&beginMark=1_-1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): lxa90481.us-east-1.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://lxa90481.us-east-1.snowflakecomputing.com:443 "GET /v1/data/pipes/client1.public.client1_demotable1_1_/insertReport?requestId=32870969-c70f-41a0-aa30-79051e1e5874&beginMark=1_-1 HTTP/1.1" 200 360
